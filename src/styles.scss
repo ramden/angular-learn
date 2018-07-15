@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@charset "utf-8";
+
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+$purple: #8A4D76;
+$dkorange: #350f04;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$withter: hsl(0, 0%, 96%);
+
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$link: $pink;
+$widescreen-enabled: true;
+$fullhd-enabled: true;
+
+@import "../node_modules/bulma/bulma.sass";
+
+
+#main {
+  min-height: 710px;
+  margin-top: 20px;
+}
